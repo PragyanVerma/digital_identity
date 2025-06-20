@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./navbar.css";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-
+//import Connectwallet from thirdweb
 const Navbar = () => {
   const userAddress = useAddress();
   const [QR, setQR] = useState("");
